@@ -12,7 +12,6 @@ function setCart(c) {
 function addToCart(item) {
  var obj = {};
  
- 
 }
 
 function viewCart() {
