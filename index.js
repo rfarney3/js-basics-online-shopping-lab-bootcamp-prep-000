@@ -17,13 +17,18 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var str = '';
+  var str = 'In your cart, you have ';
+  
   if (cart.length === 0) {
     return 'Your shopping cart is empty.';
   }
   
   for (var i = 0; i < cart.length; i++) {
+    var item = cart[i];
     
+    if (cart.length === 1) {
+      str += 
+    }
   }
 }
 
