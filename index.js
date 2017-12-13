@@ -25,9 +25,10 @@ function viewCart() {
   
   for (var i = 0; i < cart.length; i++) {
     var item = cart[i];
-    
-    if (cart.length === 1) {
-      str += 
+    for (var k in item) {
+      if (cart.length === 1) {
+        str += k + ' at $' + item[k] + '.';
+      } else if (cart.length === 2)
     }
   }
 }
